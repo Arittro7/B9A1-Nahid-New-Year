@@ -288,10 +288,52 @@
   width: 350px;
   height: 320px;
 }
-.discount-badge{
+
+.discount-badge {
   width: 200px;
   height: 200px;
   margin-left: ;
 }
 
 /* portfolio section style */
+.portfolio {
+  width: 100%;
+  max-width: 1320px;
+  height: 100vh;
+  margin: 0 auto;
+  line-height: 20px;
+}
+
+.pf-gifts {
+  color: #F00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 80px;
+}
+
+.awesome {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.pf-para {
+  width: 800px;
+  margin-bottom: 30px;
+}
+
+.portfolio-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.portfolio-images img:hover{
+  border: 3px solid black;
+  border-radius: 16px;
+}
+
