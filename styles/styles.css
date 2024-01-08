@@ -177,3 +177,19 @@
   font-weight: 700;
   border: 0;
 }
+/* Coming soon section styles */
+.coming-soon{
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 140px;
+  gap: 70px;
+}
+/* .coming-soon-left{
+  margin-right: 30px;
+} */
+.coming-image{
+  width: 250px;
+  margin-left: -250px;
+}
