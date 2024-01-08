@@ -6,17 +6,14 @@
 
 /* banner section styles */
 .header {
-  background-image: url("../images/Banner\ Image.png");
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Banner\ Image.png");
   border-radius: 10px;
-  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%)url();
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   align-items: center;
   text-align: center;
 }
-
-/* I tried my best to applied the gradient 😭 */
 
 .banner-text {
   display: block;
@@ -82,7 +79,6 @@
 .party-section {
   max-width: 1320px;
   height: 600px;
-  /* background-image: url("../images/Vectorrr.png"); */
   background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/images/Vectorrr.png');
   background-size: cover;
   align-items: center;
@@ -91,7 +87,8 @@
 
 .party-section {
   display: flex;
-  justify-content: space-between;
+  margin: 0 auto;
+  border-radius: 30px;
 }
 
 .party-section-title {
@@ -133,7 +130,7 @@
 
 /* event section styles */
 .events {
-  max-width: 1140px;
+  max-width: 1320px;
   display: block;
   background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
   justify-content: center;
@@ -164,10 +161,12 @@
 .event-span {
   color: #F00;
 }
-.btn{
+
+.btn {
   display: flex;
   justify-content: center;
 }
+
 .event-btn {
   border-radius: 5px;
   background: #F00;
@@ -177,19 +176,53 @@
   font-weight: 700;
   border: 0;
 }
+
 /* Coming soon section styles */
-.coming-soon{
-  max-width: 1140px;
+.coming-soon {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.coming-soon-info{
   display: flex;
+  gap: 70px;
   justify-content: space-between;
   align-items: center;
-  margin: 100px 140px;
-  gap: 70px;
 }
-/* .coming-soon-left{
-  margin-right: 30px;
-} */
-.coming-image{
+
+.coming-image {
   width: 250px;
-  margin-left: -250px;
+}
+.coming-soon-left{
+  margin-right: 80px;
+}
+.coming-image {
+  border: 10px solid red;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+#best-offer {
+  color: #F00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+
+#soon {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.coming-soon-para {
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }
