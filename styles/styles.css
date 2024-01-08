@@ -11,11 +11,11 @@
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%)url();
   background-repeat: no-repeat;
   background-size: cover;
-  align-items: center;
   background-position: center;
   align-items: center;
   text-align: center;
 }
+
 /* I tried my best to applied the gradient 😭 */
 
 .banner-text {
@@ -39,4 +39,106 @@
   font-size: 65px;
   font-weight: 900;
   margin-top: -10px;
+}
+
+/* 60% off section styles */
+.discount {
+  /* height: 100vh; */
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 100px 0;
+  text-align: center;
+  line-height: 5px;
+}
+
+.off {
+  color: #F00;
+  text-align: center;
+  font-size: 88px;
+  font-weight: 700;
+}
+
+.deals {
+  color: #F00;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.categories {
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.dis-photo {
+  width: 500px;
+  margin-top: 10px;
+  margin-bottom: 120px;
+}
+
+/* Party banner section style */
+.party-section {
+  max-width: 1320px;
+  height: 600px;
+  /* background-image: url("../images/Vectorrr.png"); */
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('/images/Vectorrr.png');
+  background-size: cover;
+  align-items: center;
+  background-position: center;
+}
+
+.party-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.party-section-title {
+  color: #FFF;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+}
+
+.party-section-info {
+  color: rgba(255, 255, 255, 0.80);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+
+}
+
+.btn-join {
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  padding-left: 10px;
+}
+.party-content{
+  margin: 140px;
+}
+#bnr-image{
+  width: 300px;
+  margin-right: 140px;
+}
+/* event section styles */
+.events{
+  max-width: 1140px;
+  display: flex;
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  background-position: center;
+  margin-top: 100px;
+}
+.events-details{
+  margin: 0 auto;
+  padding: 100px 0;
+  text-align: center;
+  line-height: 30px;
 }
